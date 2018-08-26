@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"project1/pkg/com/company/projectname/domain/stringutil"
+	"onebigproject/commonpackages/stringutil"
 )
 
 func main() {
