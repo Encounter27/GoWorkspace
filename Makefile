@@ -1,5 +1,5 @@
 PROJECTS=onebigproject/...
-
+COMMAND=cmd1 cmd2
 
 all:
 	cd src/ && go install $(PROJECTS)

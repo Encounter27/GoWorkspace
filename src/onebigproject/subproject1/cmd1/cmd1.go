@@ -5,6 +5,7 @@ import (
 	"onebigproject/commonpackages/stringutil"
 )
 
+// main
 func main() {
 	s := "Hello world !!"
 	s = stringutil.Reverse(s)
