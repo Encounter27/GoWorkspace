@@ -4,6 +4,7 @@
 # Install bellow packages:
 # "sudo apt-get install git direnv"
 
+# Dependencies for devlopment environment/editor
 go get -u -v github.com/derekparker/delve/cmd/dlv
 go get -u -v github.com/ramya-rao-a/go-outline
 go get -u -v github.com/acroca/go-symbols
@@ -25,5 +26,9 @@ go get -u -v github.com/davidrjenni/reftools/cmd/fillstruct
 go get -u github.com/sourcegraph/go-langserver
 go get -u -v github.com/alecthomas/gometalinter
 gometalinter --install
+
+# Dependancies for test report generation
+go get -u -v github.com/axw/gocov/...
+go get -u -v github.com/AlekSi/gocov-xml
 
 # Add dependancies bellow
